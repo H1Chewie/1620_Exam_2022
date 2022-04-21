@@ -51,4 +51,13 @@ const contactsList = [
   },
 ]
 
-// Your code goes here
+const showContacts = document.getElementById(".display_all_contacts")
+const showOneContact = document.querySelector(".display_single_contact")
+
+  contactsList.forEach(res =>{
+    let card = document.getElementById(".display_all_contacts")
+    let name = document.createTextNode('Name ' + res.name);
+    card.appendChild(name);
+    let displayPage = document.querySelector(".display_all_contacts")
+  
+});
