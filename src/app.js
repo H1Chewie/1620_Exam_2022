@@ -68,6 +68,7 @@ function singleContact(){
   const selectContact = document.querySelector(".display_single_contact")
   selectContact.addEventListener('click', loadContacts)
 }
-
+function closePage(){
 const closeBtn = document.querySelector(".display_single_contact")
 closeBtn = addEventListener("click", loadContacts)
+}
