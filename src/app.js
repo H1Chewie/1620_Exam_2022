@@ -64,3 +64,10 @@ function loadContacts(){
 });
 }
 
+function singleContact(){
+  const selectContact = document.querySelector(".display_single_contact")
+  selectContact.addEventListener('click', loadContacts)
+}
+
+const closeBtn = document.querySelector(".display_single_contact")
+closeBtn = addEventListener("click", loadContacts)

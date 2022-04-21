@@ -68,6 +68,8 @@ header a:hover {
 main {
   display:flex;
   background-color:var(--red);
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #individual_contact {
